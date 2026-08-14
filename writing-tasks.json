@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "id": "w-task1-001",
+      "type": "functional_email",
+      "title": "Write an email",
+      "timeLimitMinutes": 27,
+      "minWords": 150,
+      "prompt": "Your neighborhood community centre is looking for volunteers to help organize a weekend event. Write an email to the community centre coordinator. In your email: explain why you are interested in volunteering, describe any relevant skills or experience you have, and ask two questions about what the role would involve."
+    },
+    {
+      "id": "w-task2-001",
+      "type": "opinion_response",
+      "title": "Respond to survey questions",
+      "timeLimitMinutes": 26,
+      "minWords": 150,
+      "prompt": "Some people believe that remote work improves quality of life, while others believe it makes work-life balance harder to maintain. Which viewpoint do you agree with more? Explain your opinion with reasons and examples."
+    }
+  ]
+}

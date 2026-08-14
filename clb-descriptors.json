@@ -1,0 +1,70 @@
+{
+  "_comment": "Canadian Language Benchmark (CLB) descriptor reference for scoring writing and speaking responses. These are publicly documented benchmark bands (1-12). Calibrate/edit this file as needed rather than editing scoring logic.",
+  "scale": {
+    "min": 1,
+    "max": 12,
+    "bands": {
+      "low": { "range": [1, 4], "label": "Basic proficiency" },
+      "intermediate": { "range": [5, 8], "label": "Intermediate proficiency" },
+      "advanced": { "range": [9, 12], "label": "Advanced proficiency" }
+    }
+  },
+  "writingDimensions": [
+    {
+      "id": "content_coherence",
+      "name": "Content and Coherence",
+      "description": "Relevance and development of ideas, logical organization, and clarity of connections between ideas and paragraphs."
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "description": "Range, precision, and appropriateness of word choice for the task and audience."
+    },
+    {
+      "id": "readability",
+      "name": "Readability",
+      "description": "Grammatical accuracy, sentence structure control, spelling, and punctuation that affect ease of reading."
+    },
+    {
+      "id": "task_fulfillment",
+      "name": "Task Fulfillment",
+      "description": "How completely and appropriately the response addresses all parts of the prompt, including tone and format requirements."
+    }
+  ],
+  "speakingDimensions": [
+    {
+      "id": "content_coherence",
+      "name": "Content and Coherence",
+      "description": "Relevance and development of ideas with logical, connected delivery."
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "description": "Range, precision, and appropriateness of word choice for the task."
+    },
+    {
+      "id": "listenability",
+      "name": "Listenability",
+      "description": "Pronunciation, intonation, pacing, and overall ease of understanding for a listener."
+    },
+    {
+      "id": "task_fulfillment",
+      "name": "Task Fulfillment",
+      "description": "How completely and appropriately the response addresses the task prompt."
+    }
+  ],
+  "listeningReadingScoreMap": {
+    "_comment": "Example raw-score-to-CLB conversion table. Replace with calibrated values as needed. Format: [minCorrect, maxCorrect] -> CLB level, out of totalQuestions.",
+    "totalQuestions": 38,
+    "table": [
+      { "range": [0, 10], "clb": 3 },
+      { "range": [11, 15], "clb": 4 },
+      { "range": [16, 20], "clb": 5 },
+      { "range": [21, 26], "clb": 6 },
+      { "range": [27, 29], "clb": 7 },
+      { "range": [30, 32], "clb": 8 },
+      { "range": [33, 35], "clb": 9 },
+      { "range": [36, 38], "clb": 10 }
+    ]
+  }
+}
